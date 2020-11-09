@@ -1,0 +1,93 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Lucida Grande";
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.header {
+	background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+	background-size: cover;
+}
+
+.content {
+	width: 1170px;
+	padding: 180px 0 100px 0;
+	margin: auto;
+}
+
+.txt-h1 h1 {
+	font-size: 45px;
+	letter-spacing: 5px;
+	color: white;
+	opacity: 0.7;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.txt-p p {
+	text-align: center;
+	color: white;
+	margin: 3px 0;
+	opacity: 0.7;
+}
+
+.social-media {
+	text-align: center;
+	color: white;
+}
+
+.social-media p {
+	margin-bottom: 10px;
+}
+
+.btn {
+	padding: 12px 24px;
+	font-size: 16px;
+}
+
+.btn-email {
+	color: white;
+	background-color: #239b76;
+	opacity: 0.8;
+	border: none;
+	margin: 10px 0;
+
+}
+
+.btn-facebook {
+	color: white;
+	background-color: #3b5998;
+	opacity: 0.8;
+	margin-right: 10px;
+}
+
+.btn-twitter {
+	color: white;
+	background-color: #55acee;
+	opacity: 0.8;
+}
