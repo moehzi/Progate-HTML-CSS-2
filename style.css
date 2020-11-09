@@ -91,3 +91,41 @@ a {
 	background-color: #55acee;
 	opacity: 0.8;
 }
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+nav {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.header-left {
+	float: left;
+
+
+}
+
+.header-right {
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: all 0.5s;
+}
+
+.logo {
+	width: 124px;
+	margin: 20px 0;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: block;
+}
